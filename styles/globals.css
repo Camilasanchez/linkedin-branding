@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply w-full px-4 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500;
+  }
+  .btn-primary {
+    @apply px-6 py-2 bg-indigo-600 text-white font-semibold rounded-md hover:bg-indigo-700;
+  }
+  .btn-secondary {
+    @apply px-6 py-2 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700;
+  }
+  
